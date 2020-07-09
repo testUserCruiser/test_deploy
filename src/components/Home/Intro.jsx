@@ -14,7 +14,7 @@ function Intro(props)  {
                 <Helmet>
                     <meta charSet="utf-8" />
                     <title>Akshay Kalucha</title>
-                    <meta name="twitter:card" content="summary" />
+                    <meta name="twitter:card" content="summary_large_image" />
                     <meta name="twitter:creator" content="@lifeofakshy" />
                     <meta name="twitter:site" content="@lifeofakshy" />
                     <meta name="twitter:title" content="I'm Akshay Kalucha" />

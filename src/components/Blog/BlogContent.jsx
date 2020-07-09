@@ -77,6 +77,11 @@ function ConvLstToDate(arr){
                 <meta charSet="utf-8" />
                 <title>{props.pageTitle}</title>
                 <link rel="canonical" href="http://mysite.com/example" />
+                <meta name="twitter:card" content="summary_large_image" />
+                <meta name="twitter:title" content="Parade of Fans for Houston’s Funeral" />
+                <meta name="twitter:description" content="NEWARK - The guest l" />
+                <meta name="twitter:creator" content="@lifeofakshy" />
+                    <meta name="twitter:site" content="@lifeofakshy" />
                 <meta name="twitter:img" content={metaImage} />
             </Helmet>
             : null
