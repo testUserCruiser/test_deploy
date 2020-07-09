@@ -1,0 +1,112 @@
+body{
+    overflow-x: hidden;
+}
+
+
+.toggle-button__burger-light{
+    width: 1.6rem;
+    height: 0.15rem;
+    background: #323232;
+    border-radius: 2px;
+    transition: all .1s ease-in-out;
+}
+
+.toggle-button__burger-light::before,
+.toggle-button__burger-light::after{
+    content: '';
+    position: absolute;
+    width: 1.6rem;
+    height: 0.15rem;
+    background: #323232;
+    border-radius: 2px;
+    transition: all .1s ease-in-out;
+}
+
+.toggle-button__burger-light::before{
+    transform: translateY(-8px);
+}
+
+.toggle-button__burger-light::after{
+    transform: translateY(8px);
+}
+
+/* ANimation */
+
+.toggle-button.open .toggle-button__burger-light{
+    transform: translateX(-50px);
+    background: transparent;
+    box-shadow: none;
+    transition: transform .4s ease-in-out;
+
+}
+.toggle-button.open .toggle-button__burger-light::before{
+    background: #000;
+    transform: rotate(45deg) translate(35px, -35px);
+    transition: transform .3s ease-in-out;
+
+}
+
+.toggle-button.open .toggle-button__burger-light::after{
+    background: #000;
+    transform: rotate(-45deg) translate(35px, 35px);
+    transition: transform .3s ease-in-out;
+
+}
+
+
+
+
+
+
+
+
+
+.toggle-button__burger-dark{
+    width: 1.6rem;
+    height: 0.15rem;
+    background: white;
+    border-radius: 2px;
+    transition: all .1s ease-in-out;
+}
+
+.toggle-button__burger-dark::before,
+.toggle-button__burger-dark::after{
+    content: '';
+    position: absolute;
+    width: 1.6rem;
+    height: 0.15rem;
+    background: white;
+    border-radius: 2px;
+    transition: all .1s ease-in-out;
+}
+
+.toggle-button__burger-dark::before{
+    transform: translateY(-8px);
+}
+
+.toggle-button__burger-dark::after{
+    transform: translateY(8px);
+}
+
+/* ANimation */
+
+.toggle-button.open .toggle-button__burger-dark{
+    transform: translateX(-50px);
+    background: transparent;
+    box-shadow: none;
+    transition: transform .4s ease-in-out;
+
+}
+.toggle-button.open .toggle-button__burger-dark::before{
+    background: white;
+    transform: rotate(45deg) translate(35px, -35px);
+    transition: transform .3s ease-in-out;
+
+}
+
+.toggle-button.open .toggle-button__burger-dark::after{
+    background: white;
+    transform: rotate(-45deg) translate(35px, 35px);
+    transition: transform .3s ease-in-out;
+
+}

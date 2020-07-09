@@ -1,0 +1,380 @@
+.footer__main{
+    width: 100%;
+    color: rgb(255, 255, 255);
+    background-image: linear-gradient(10deg, rgb(0, 114, 255) 0%, rgb(0, 198, 255) 100%);
+    padding: 4rem 0px 2rem;
+}
+
+.footer__main li{
+    list-style: none;
+}
+.footer__main a{
+    color: white;
+    text-decoration: none;
+}
+
+.branding__footer{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    margin: 0 11rem;
+}
+
+.brand__ul{
+    padding-left: 0rem;
+}
+
+
+.brand__ul a{
+    padding-right: 0px;
+    position: relative;
+    top: -115px;
+    font-size: 30px;
+    font-weight: 400;
+    right: 88px;
+}
+.brand__ul img{
+    height: 213px;
+    filter: brightness(0) invert(1);
+}
+
+.NavLinks__ul{
+    margin-top: 4rem;
+    font-size: 19px;
+    margin-right: 6.8rem;
+}
+
+.NavLinks__ul li{
+    padding-bottom: 1rem;
+    font-weight: 400;
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;
+}
+
+.links__ul{
+    padding-top: 13px;
+    padding-left: 8rem;
+}
+.links__ul li{
+    padding-top: 18px;
+    font-size: 19px;
+    font-weight: 500;
+    padding-right: 10rem;
+}
+
+.social__media-ul{
+    padding-top: 57px;
+    margin-left: 7rem;
+    position: relative;
+    right: 16%;
+}
+
+.social__media-ul li{
+    padding-right: 9px;
+    margin-top: 0rem;
+    font-size: 24px;
+}
+
+.social__media-ul a{
+    font-size: 28px;
+}
+
+.SM__links-github{
+    position: relative;
+    top: -74px;
+    left: 83px;
+}
+
+.SM__links-linkedin{
+    position: relative;
+    top: -112px;
+    left: 128px;
+}
+
+.SM__links-twitter{
+    position: relative;
+    top: -37px;
+    left: 42px;
+}
+.SM__links-snapchat{
+    position: relative;
+}
+.SM__links-instagram{
+    position: relative;
+    bottom: 9.3rem;
+    left: 169px;
+}
+
+@media(max-width: 768px){
+
+
+    .footer__main{
+        width: 100%;
+        color: rgb(255, 255, 255);
+        background-image: linear-gradient(10deg, rgb(0, 114, 255) 0%, rgb(0, 198, 255) 100%);
+        padding: 2rem 0px 2rem;
+    }
+    
+    .footer__main li{
+        list-style: none;
+    }
+    .footer__main a{
+        color: white;
+        text-decoration: none;
+    }
+    
+    .branding__footer{
+        display: block;
+        align-items: flex-start;
+        justify-content: space-around;
+        margin: 0 0rem;
+        margin-top: 93px;
+    }
+    
+    .brand__ul{
+        padding-left: 2.5rem;
+        padding-top: 1rem;
+    }
+    
+    
+    .brand__ul a{
+        padding-right: 9px;
+        position: relative;
+        top: -94px;
+        font-size: 24px;
+        font-weight: 400;
+        right: 81px;
+    }
+    .brand__ul img{
+        height: 180px;
+        filter: brightness(0) invert(1);
+        padding-left: 3rem;
+    }
+    
+    .links__ul{
+        padding-top: 0px;
+        padding-left: 9rem;
+        margin-top: -4rem;
+    }
+    .links__ul li{
+        padding-top: 21px;
+        font-size: 19px;
+        font-weight: 500;
+        padding-right: 10rem;
+        text-align: center;
+    }
+    
+    .social__media-ul{
+        padding-top: 57px;
+        margin-left: 101px;
+        position: relative;
+        right: 16%;
+    }
+    .social__media__heading{
+        margin-left: 26px;
+    }
+    
+    .social__media-ul li{
+        padding-right: 9px;
+        margin-top: -1rem;
+        font-size: 24px;
+        padding-left: 37px;
+    }
+    
+    .social__media-ul a{
+        font-size: 28px;
+    }
+    
+    .SM__links-github{
+        position: relative;
+        top: -21px;
+        left: 80px;
+    }
+    
+    .SM__links-linkedin{
+        position: relative;
+        top: -37px;
+        left: 122px;
+    }
+    
+    .SM__links-twitter{
+        position: relative;
+        top: -1.6px;
+        left: 39px;
+    }
+    .SM__links-snapchat{
+        position: relative;
+        top: 15px;
+        left: -2px;
+    }
+    .SM__links-instagram{
+        position: relative;
+        top: -54.6px !important;
+        left: 160px;
+    }
+    
+    .NavLinks__ul{
+        margin-top: -1rem;
+        font-size: 19px;
+        margin-right: -3px;
+        padding-left: 0;
+        text-align: center;
+    }
+
+    .NavLinks__ul li{
+        padding-bottom: 1rem;
+        font-weight: 400;
+        font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif !important;
+    }
+
+
+}
+
+
+
+
+@media(max-width: 360px){    
+    .brand__ul{
+        padding-left: 1.5rem !important;
+        padding-top: 1rem !important;
+    }
+    
+    .social__media-ul{
+        padding-top: 57px;
+        margin-left: 67px !important;
+        position: relative;
+        right: 16% !important;
+    }
+    
+    .social__media-ul li{
+        padding-right: 9px !important;
+        margin-top: -1rem;
+        font-size: 24px;
+        padding-left: 37px !important;
+    }
+
+}
+
+@media(max-width: 320px){    
+
+  
+    .brand__ul{
+        padding-left: 2.5rem !important;
+        padding-top: 1rem !important;
+    }
+    
+    
+    .brand__ul a{
+        padding-right: 9px !important;
+        position: relative;
+        top: -121px !important;
+        font-size: 24px;
+        font-weight: 400;
+        right: -113px !important;
+    }
+    .brand__ul img{
+        height: 180px;
+        filter: brightness(0) invert(1);
+        padding-left: 1rem !important;
+    }
+    .social__media-ul{
+        padding-top: 57px;
+        margin-left: 34px !important;
+        position: relative;
+        right: 16% !important;
+    }
+
+    .NavLinks__ul{
+        margin-top: -3rem;
+        font-size: 19px;
+        margin-right: -3px !important;
+        padding-left: 0 !important;
+        text-align: center;
+    }
+
+}
+
+@media(max-width: 375px){    
+
+    .brand__ul img {
+        height: 180px;
+        filter: brightness(0) invert(1);
+        padding-left: 3rem;
+    }
+    .brand__ul{
+        padding-left: 3.5rem;
+        padding-top: 1rem;
+    }
+    
+    
+    .brand__ul a{
+        padding-right: 9px;
+        position: relative;
+        top: -94px;
+        font-size: 24px;
+        font-weight: 400;
+        right: 74px;
+    }
+    .brand__ul img{
+        height: 180px;
+        filter: brightness(0) invert(1);
+        padding-left: 1rem;
+    }
+    .social__media-ul{
+        padding-top: 57px;
+        margin-left: 79px;
+        position: relative;
+        right: 16%;
+    }
+
+    .NavLinks__ul{
+        margin-top: -3rem;
+        font-size: 19px;
+        margin-right: 6px;
+        padding-left: 0;
+        text-align: center;
+    }
+
+}
+
+
+
+/* @media only screen 
+and (device-width: 414px) 
+and (device-height: 896px)
+and (-webkit-device-pixel-ratio: 2) { 
+
+    .SM__links-github{
+        position: relative;
+        top: -8px;
+        left: 73px;
+    }
+
+    .SM__links-linkedin{
+        top: -20px;
+        left: 118px;
+    }
+
+    .SM__links-snapchat{
+        left: -9px;
+    }
+
+    .SM__links-twitter{
+        top: 4px;
+        left: 32px;
+    }
+
+    .SM__links-instagram{
+        top: -31.6px !important;
+        left: 155px;
+    }
+
+    .NavLinks__ul li{
+        padding-bottom: 1rem;
+        font-weight: 400;
+        font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif !important;
+    }
+
+} */
+
+
+    /* -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif; */

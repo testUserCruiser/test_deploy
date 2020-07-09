@@ -1,0 +1,126 @@
+.testimonial__card{
+    margin-bottom: 4rem;
+    margin-top: -9rem;
+}
+
+.testimonial__button-prev{
+    position: relative;
+    font-size: 20px;
+    top: 87px;
+    left: 101px;
+}
+
+.testimonial__button-next{
+    position: relative;
+    font-size: 20px;
+    left: 77rem;
+    top: -263px;
+}
+
+.testimonials-h1{
+    font-size: 41px;
+    margin-left: 130px;
+    margin-bottom: -10px;
+    margin-top: 3rem;
+    padding-top: 9rem;
+}
+
+.testimonial__glider-main{
+
+}
+
+.glider.draggable{
+    margin: 0 8rem;
+}
+
+.glider p{
+    text-align: left;
+    color: rgb(56, 56, 56);
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.testimonial__glider-main figure{
+    margin: 0 0;
+    margin-right: 35px;
+    /* width: 342px !important; */
+}
+
+
+@media(max-width: 768px){
+
+    .glider-track{
+
+    }
+
+    .testimonial__card{
+        margin-bottom: 4rem;
+        margin-top: 8rem;
+        margin-top: -12rem;
+    }
+    
+    .testimonial__button-prev{
+        position: relative;
+        font-size: 20px;
+        top: 109px;
+        left: 2px;
+        z-index: 0;
+    }
+    
+    .testimonial__button-next{
+        position: relative;
+        font-size: 20px;
+        left: 398px;
+        top: -285px;
+        z-index: 0;
+    }
+    
+    .testimonials-h1{
+        font-size: 30px;
+        margin-left: 22px;
+        margin-bottom: -3px;
+        margin-top: 3rem;
+        font-weight: 500;
+        padding-top: 11rem;
+    }
+    
+    .testimonial__glider-main{
+    
+    }
+    
+    .glider.draggable{
+        margin: 0 1.5rem;
+    }
+    
+    .glider p{
+        text-align: left;
+        color: rgb(56, 56, 56);
+        font-size: 18px;
+        line-height: 1.5;
+    }
+    
+    .testimonial__glider-main figure{
+        margin: 0 0;
+        margin-right: 55px;
+        /* width: 342px !important; */
+    }
+
+
+
+}
+
+
+@media only screen 
+and (device-width: 414px) 
+and (device-height: 896px)
+and (-webkit-device-pixel-ratio: 2) { 
+
+    /* .testimonial__button-next{
+        position: relative;
+        font-size: 17px;
+        left: 398px;
+        top: -177px;
+        z-index: 0;
+    } */
+
+}

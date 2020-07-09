@@ -1,0 +1,334 @@
+.softwareTable{ 
+    margin-top: 1rem;
+    padding-bottom: 5rem;
+}
+
+table{
+    border-color: grey;
+    border-collapse: collapse;
+}
+
+.softwareTab{
+    width: 1200px;
+    margin-left: 4.6rem;
+    position: static;
+}
+
+.softwareTable tr:nth-child(1){
+    border-top: solid #a9a9a9 thin;
+}
+.softwareTable th{
+    font-size: 16px;
+    padding-top: 0.7rem;
+    padding-bottom: 0.7rem;
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+.softwareTable table th {
+    font-weight: 400;
+    box-shadow: 0px 2px 0px 0.1px #cccccc;
+    text-align: center;
+    border-left: 1px solid #bdbcbc;
+    border-right: 1px solid #bdbcbc;
+}
+
+.softwareTable table th:last-child{
+    border-right: none;
+}
+
+.softwareTable table th:first-child{
+    border-left: none;
+}
+
+.softwareTable td{
+    border-right: 1px solid #000;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 13px;
+    padding: 15px;
+    color: black;
+    border-bottom: 1px solid #a9a9a9;
+    letter-spacing: 1px;
+    text-align: left;
+    border-collapse: separate !important;
+}
+
+.softwareTable table td:first-child{
+    border-left: none;
+}
+
+.softwareTable table td:last-child{
+    border-right: none;
+}
+
+tr:nth-child(1) {
+    border-top: solid #a9a9a9 thin;
+}
+
+.software__heading{
+    padding-top: 10rem;
+    font-size: 28px;
+    letter-spacing: 1px;
+    margin-left: 5.5%;
+}
+
+.Techno__Stack{
+    color: rgba(0,0,0,0.8);
+    background: rgb(249, 249, 249);
+    padding-top: 5rem;
+}
+
+.intro{
+    margin-left: 5.5%;
+    font-size: 38px;
+    letter-spacing: 2px;
+    padding-top: 26px;
+}
+
+.intro-p1{
+    font-size: 15px;
+    margin-top: -29px;
+    margin-left: 5px;
+}
+
+.web__architecture-software{
+    padding-top: 2rem;
+    padding-left: 6rem;
+    padding-bottom: 6rem;
+    padding-right: 5rem;
+    grid-gap: 1rem;
+    display: grid;
+    grid-template-columns: 276px 276px 276px 276px;
+}
+.web__architecture-software h3{
+    font-size: 17px;
+    font-weight: 400;
+}
+.web__architecture-software sub{
+    font-size: 13px;
+}
+.web__architecture-software ul{
+    padding-left: 1.5rem;
+    padding-top: .5rem;
+}
+.web__architecture-software li{
+    padding-top: 0.5rem;
+    font-size: 15px;
+}
+
+.software-services{
+    margin-left: 5.5%;
+    padding-bottom: 17rem;
+    margin-bottom: -17rem;
+}
+
+.software-services h2{
+    font-weight: 400;
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+
+.service_table{
+    width: 1100px;
+    margin-right: 7.6rem;
+    border-collapse: collapse;
+}
+
+.service_table table tr:nth-child(1){
+    border-top: solid #a9a9a9 thin;
+}
+
+.service_table th{
+    padding-top: 0.7rem;
+    padding-bottom: 0.7rem;
+    text-align: left;
+    padding-left: 12px
+}
+
+.service_table tr{
+    border-top: solid #a9a9a9 thin;
+}
+
+.service_table td{
+    font-size: 15px;
+    padding-left: 10px;
+    padding-right: 55px;
+    padding-top: 11px;
+    padding-bottom: 12px;
+}
+
+
+@media only screen and (max-width: 768px){
+
+
+    .softwareTable{ 
+        margin-top: 1rem;
+        padding-bottom: 8rem;
+    }
+    
+    table{
+        border-color: grey;
+        border-collapse: collapse;
+    }
+    
+    .softwareTab{
+        margin-left: 1.5rem;
+        position: static;
+        height: 600px;
+        width: 350px;
+        overflow-x: auto;
+        display: block;
+    }
+    
+    .softwareTable tr:nth-child(1){
+        border-top: solid #a9a9a9 thin;
+    }
+    .softwareTable th{
+        font-size: 16px;
+        padding-top: 0.7rem;
+        padding-bottom: 0.7rem;
+        padding-right: 1rem;
+        padding-left: 1rem;
+    }
+    .softwareTable table th {
+        font-weight: 400;
+        box-shadow: 0px 2px 0px 0.1px #cccccc;
+        text-align: center;
+        border-left: 1px solid #bdbcbc;
+        border-right: 1px solid #bdbcbc;
+    }
+    
+    .softwareTable table th:last-child{
+        border-right: none;
+    }
+    
+    .softwareTable table th:first-child{
+        border-left: none;
+    }
+    
+    .softwareTable td{
+        border-right: 1px solid #000;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-size: 13px;
+        padding: 15px;
+        color: black;
+        border-bottom: 1px solid #a9a9a9;
+        letter-spacing: 1px;
+        text-align: left;
+        border-collapse: separate !important;
+    }
+    
+    .softwareTable table td:first-child{
+        border-left: none;
+    }
+    
+    .softwareTable table td:last-child{
+        border-right: none;
+    }
+    
+    tr:nth-child(1) {
+        border-top: solid #a9a9a9 thin;
+    }
+    
+    .software__heading{
+        padding-top: 7rem;
+        font-size: 25px;
+        letter-spacing: 1px;
+        margin-left: 5.5%;
+    }
+    
+    .Techno__Stack{
+        color: rgba(0,0,0,0.8);
+        background: rgb(249, 249, 249);
+        padding-top: 3rem;
+        margin-top: -2rem;
+    }
+    
+    .intro{
+        margin-left: 5.5%;
+        font-size: 38px;
+        letter-spacing: 2px;
+        padding-top: 26px;
+    }
+    
+    .intro-p1{
+        font-size: 15px;
+        margin-top: -29px;
+        margin-left: 5px;
+    }
+    
+    .web__architecture-software{
+        padding-top: 1rem;
+        padding-left: 2rem;
+        padding-bottom: 3rem;
+        padding-right: 5rem;
+        grid-gap: 1rem;
+        display: block;
+        grid-template-columns: 0px 0px 0px 0px;
+    }
+    .web__architecture-software h3{
+        font-size: 17px;
+        font-weight: 400;
+        margin-bottom: 0;
+    }
+    .web__architecture-software sub{
+        font-size: 13px;
+    }
+    .web__architecture-software ul{
+        padding-left: 1.5rem;
+        padding-top: .5rem;
+        margin-top: 1px;
+        margin-bottom: 2rem;
+    }
+    .web__architecture-software li{
+        padding-top: 0.5rem;
+        font-size: 15px;
+    }
+    
+    .software-services{
+        margin-left: 5.5%;
+        padding-bottom: 15rem;
+        margin-bottom: -18rem;
+    }
+    
+    .software-services h2{
+        font-weight: 400;
+        letter-spacing: 2px;
+        font-size: 20px;
+    }
+    
+    .service_table{
+        width: 350px;
+        height: 501px;
+        margin-right: 7.6rem;
+        border-collapse: collapse;
+        display: block;
+        overflow-x: auto;
+    }
+    
+    .service_table table tr:nth-child(1){
+        border-top: solid #a9a9a9 thin;
+    }
+    
+    .service_table th{
+        padding-top: 0.7rem;
+        padding-bottom: 0.7rem;
+        text-align: left;
+        padding-left: 12px
+    }
+    
+    .service_table tr{
+        border-top: solid #a9a9a9 thin;
+    }
+    
+    .service_table td{
+        font-size: 15px;
+        padding-left: 8px;
+        padding-right: 15px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+
+}

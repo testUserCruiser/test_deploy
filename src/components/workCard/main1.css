@@ -1,0 +1,186 @@
+.carousel-simple {
+  list-style-type: none;
+  margin: 30px auto;
+  max-width: 100%;
+  width: 650px;
+  display: flex;
+  justify-content: center;
+  min-height: 338px;
+  padding: 0;
+  position: relative;
+}
+.carousel-simple.one-element .arrow, .carousel-simple.one-element .dot {
+  display: none !important;
+}
+.carousel-simple .arrow {
+  display: flex !important;
+  cursor: pointer;
+  width: 35px;
+  text-align: center;
+  bottom: 0;
+  top: 0;
+  position: absolute;
+  z-index: 2;
+  transition: .5s;
+}
+.carousel-simple .arrow:hover {
+  opacity: .5;
+}
+.carousel-simple .arrow.back {
+  left: -50px;
+}
+.carousel-simple .arrow.next {
+  right: -50px;
+}
+.carousel-simple .arrow img {
+  height: 35px;
+  width: 35px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.carousel-simple .carousel-content {
+  z-index: 0;
+  opacity: 0;
+  top: 0;
+  list-style-type: none;
+  padding: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  box-shadow: -2px 4px 20px 0 rgba(177, 183, 208, 0.5);
+  transform: translate(-50%, -50%);
+}
+.carousel-simple .carousel-content p {
+  display: flex;
+  align-items: center;
+  min-height: 130px;
+  font-size: 18px;
+  font-style: italic;
+  line-height: 1.5;
+  font-family: arial;
+  border-bottom: 1px solid #ebecf0;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+  margin-top: 0;
+}
+.carousel-simple .carousel-content .info {
+  float: left;
+  padding: 30px 30px 20px 30px;
+}
+.carousel-simple .dot {
+  top: 100%;
+  width: 23px;
+  height: 4px;
+  border-radius: 2.5px;
+  float: left;
+  cursor: pointer;
+  opacity: 1;
+  background: rgba(255, 255, 255, 0.5);
+  position: relative;
+  z-index: 1;
+  margin-right: 8px;
+  background: rgba(168, 172, 186, 0.25);
+  transition: 0.5s;
+}
+.carousel-simple .dot:hover {
+  background: #3698d1;
+}
+.carousel-simple .author {
+  display: flex;
+  align-items: center;
+  float: left;
+  width: 100%;
+}
+.carousel-simple .author .img-container {
+  margin-right: 25px;
+  background-image: linear-gradient(31deg, #a670fa, #3698d1);
+  width: 70px;
+  height: 70px;
+  float: left;
+  position: relative;
+  overflow: hidden;
+  border-radius: 50%;
+}
+.carousel-simple .author .img-container img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  max-width: 65px;
+  max-height: 65px;
+  border-radius: 50%;
+  border: 2px solid white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.carousel-simple .author h3 {
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 1.7;
+  font-family: arial;
+  margin: 0;
+}
+.carousel-simple .author span {
+  font-family: arial;
+  font-size: 15px;
+  font-weight: 500;
+  color: #989a99;
+}
+.carousel-simple .carousel-toggle {
+  display: none;
+}
+.carousel-simple .carousel-toggle.active + .dot, .carousel-simple .carousel-toggle:checked + .dot {
+  background: #3698d1;
+}
+.carousel-simple .carousel-toggle.active ~ .carousel-content, .carousel-simple .carousel-toggle:checked ~ .carousel-content {
+  opacity: 1;
+  display: initial;
+  border-radius: 4px;
+  transition: 0.5s;
+  width: 540px;
+}
+
+@media screen and (max-width: 768px) {
+  .carousel-simple {
+    min-height: 360px;
+  }
+  .carousel-simple .carousel-content p {
+    min-height: 180px;
+    text-align: justify;
+    font-size: 16px;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+  }
+  .carousel-simple .carousel-content .info {
+    padding: 20px 20px 20px 20px;
+  }
+  .carousel-simple .author .img-container {
+    margin-right: 10px;
+    width: 60px;
+    height: 60px;
+  }
+  .carousel-simple .author .img-container img {
+    max-width: 55px;
+    max-height: 55px;
+  }
+  .carousel-simple .author h3 {
+    font-size: 12px;
+    line-height: 1;
+  }
+  .carousel-simple .author span {
+    font-size: 10px;
+  }
+  .carousel-simple .carousel-toggle.active ~ .carousel-content, .carousel-simple .carousel-toggle:checked ~ .carousel-content {
+    width: 300px;
+    z-index: 1;
+  }
+}
+.title-card-slider {
+  font-size: 18px;
+  color: #4A4A4A;
+  letter-spacing: 0.53px;
+  font-family: arial;
+}

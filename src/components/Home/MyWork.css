@@ -1,0 +1,73 @@
+.myWork__Section{
+    margin-top: -8rem;
+}
+
+.mywork{
+    margin: 0 11rem;
+    margin-bottom: 2rem;
+    padding-top: 8rem;
+}
+.My__Work-h1{
+    letter-spacing: 2px;
+    font-weight: 400;
+}
+.My__Work-p{
+    padding-top: 14px;
+    margin-right: 1rem;
+}
+
+.mywork__workdone{
+    display: grid;
+    grid-template-columns: 263px 262px 310px 267px;
+    margin: 0 10.2rem;
+    margin-bottom: 2rem;
+    padding-bottom: 2rem;
+}
+.mywork__workdone h3{
+    font-weight: 500;
+    letter-spacing: 1px;
+    padding-left: 15px;
+}
+
+
+.mywork__workdone li{
+    padding-bottom: 16px;
+    font-size: 15px;
+}
+
+@media(max-width: 768px){
+
+    .myWork__Section{
+        margin-top: -11rem;
+    }
+
+    .mywork{
+        margin: 0 2rem;
+        margin-bottom: 2rem;
+        padding-top: 10rem;
+    }
+    .My__Work-h1{
+        letter-spacing: 2px;
+        font-weight: 400;
+    }
+    .My__Work-p{
+        padding-top: 14px;
+        margin-right: 1rem;
+    }
+    
+    .mywork__workdone{
+        display: block;
+        grid-template-columns: 0 0 0 0;
+        margin: 0 29px;
+        margin-bottom: 2rem;
+        padding-bottom: 2rem;
+    }
+    .mywork__workdone h3{
+        padding-left: 9px;
+    }
+    .mywork__workdone li{
+        font-size: 15.5px;
+    }
+
+
+}

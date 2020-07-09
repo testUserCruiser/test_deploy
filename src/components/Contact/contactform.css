@@ -1,0 +1,350 @@
+
+.error__message__fullname{
+    font-size: 18px;
+    color: #FF0000;
+    margin-top: -29px;
+    margin-bottom: 1.5rem;
+}
+.error__message__email{
+    font-size: 18px;
+    color: #FF0000;
+    margin-top: -29px;
+    margin-bottom: 1.5rem;
+}
+.error__message__message{
+    font-size: 18px;
+    color: #FF0000;
+    margin-top: -29px;
+    margin-bottom: 1.5rem;
+}
+
+.contactForm__main{
+    margin-top: 5rem;
+    text-align: left;
+    padding: 2rem 0px;
+    padding-bottom: 17rem;
+    margin-bottom: -17rem;
+}
+
+.contactForm{
+    margin: 0 13rem;
+    margin-left: 20rem;
+}
+
+.form-heading{
+    font-size: 18px;
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;
+    font-weight: 700;
+    columns: #333333;
+    text-rendering: optimizeLegibility;
+    line-height: 1.1;
+}
+
+.my__email{
+    padding-left: 10px;
+    color: #0077ff;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.form__para{
+    font-size: 18px;
+    color: #333333;
+    font-weight: 500;
+    padding-left: 3px;
+    margin-top: 53px;
+}
+
+.form-main{
+    padding-left: 8px;
+}
+
+.form-main input{
+    width: 89%;
+    margin-top: 7px;
+    margin-bottom: 2rem;
+    box-sizing: border-box;
+    text-align: left;
+    columns: rgb(130, 130, 130);
+    transition: all 0.2s ease 0s;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 4px;
+    color: rgb(130, 130, 130);
+    outline: none;
+    font-size: 19px;
+    padding: 0.8rem 0.5rem;
+}
+
+.form-main label{
+    color: rgba(0,0,0,0.8);
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.messageLabel{
+    width: 87.2%;
+    height: 134px;
+    border-radius: 4px;
+    margin-top: 6px;
+    color: rgb(130, 130, 130);
+    font-size: 19px;
+    outline: none;
+    margin-bottom: 2rem;
+    padding: 0.4rem 0.5rem;
+}
+
+.submitButton{
+    width: 16% !important;
+    padding: 10px 37px !important;
+    font-size: 22px;
+    border-radius: 25px !important;
+    margin-left: 36%;
+    background-image: linear-gradient(10deg, rgb(0, 114, 255) 0%, rgb(0, 198, 255) 100%);
+    color: rgb(255, 255, 255);
+    box-shadow: rgb(106, 147, 255) 0px 4px 0px -4px;
+    user-select: none;
+    border-style: none !important;
+    border: none !important;
+    border-color: initial;
+    border-image: initial;
+    border-width: initial !important;
+    cursor: pointer;
+    outline: none !important;
+}
+
+.progressIcon{
+    margin-left: 59%;
+    margin-top: -44px;
+    height: 0px !important;
+}
+
+.goBack{
+    padding-left: 37%;
+    padding-top: 11rem;
+    margin-bottom: -17rem;
+    padding-bottom: 17rem;
+}
+
+.confirmation__heading{
+    font-weight: 400;
+}
+
+.back__button{
+    margin-left: 0rem;
+    width: 11% !important;
+    padding: 10px 26px !important;
+    font-size: 17px;
+    border-radius: 25px !important;
+    margin-left: 12%;
+    background-image: linear-gradient(10deg, rgb(0, 114, 255) 0%, rgb(0, 198, 255) 100%);
+    color: rgb(255, 255, 255);
+    box-shadow: rgb(106, 147, 255) 0px 4px 0px -4px;
+    user-select: none;
+    border-style: none !important;
+    border: none !important;
+    border-color: initial;
+    border-image: initial;
+    border-width: initial !important;
+    cursor: pointer;
+    outline: none !important;
+}
+
+
+@media(max-width: 768px){
+
+
+
+    .contactForm__main{
+        margin-top: 4rem;
+        text-align: left;
+        margin-bottom: -18rem;
+        padding: 2rem 0px;
+        padding-bottom: 17rem;
+    }
+    
+    .contactForm{
+        margin: 0 0rem;
+        margin-left: 1rem;
+    }
+    
+    .form-heading{
+        font-size: 18px;
+        font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;
+        font-weight: 700;
+        columns: #333333;
+        text-rendering: optimizeLegibility;
+        line-height: 1.1;
+    }
+    
+    .my__email{
+        padding-left: 10px;
+        color: #0077ff;
+        font-size: 18px;
+        text-decoration: none;
+    }
+    
+    .form__para{
+        font-size: 18px;
+        color: #333333;
+        font-weight: 500;
+        padding-left: 3px;
+        margin-top: 53px;
+    }
+    
+    .form-main{
+        padding-left: 8px;
+    }
+    
+    .form-main input{
+        width: 89%;
+        margin-top: 5px;
+        margin-bottom: 2rem;
+        box-sizing: border-box;
+        text-align: left;
+        columns: rgb(130, 130, 130);
+        transition: all 0.2s ease 0s;
+        border-width: 1px;
+        border-style: solid;
+        border-radius: 4px;
+        color: rgb(130, 130, 130);
+        outline: none;
+        font-size: 19px;
+        padding: 0.8rem 0.5rem;
+    }
+    
+    .form-main label{
+        color: rgba(0,0,0,0.8);
+        font-weight: 500;
+    }
+    
+    .messageLabel{
+        width: 87.2%;
+        height: 134px;
+        border-radius: 4px;
+        margin-top: 6px;
+        color: rgb(130, 130, 130);
+        font-size: 19px;
+        outline: none;
+        margin-bottom: 2rem;
+        padding: 0.4rem 0.5rem;
+    }
+    
+    .submitButton{
+        width: 32% !important;
+        padding: 10px 35px !important;
+        font-size: 22px;
+        border-radius: 25px !important;
+        margin-left: 29%;
+        background-image: linear-gradient(10deg, rgb(0, 114, 255) 0%, rgb(0, 198, 255) 100%);
+        color: rgb(255, 255, 255);
+        box-shadow: rgb(106, 147, 255) 0px 4px 0px -4px;
+        user-select: none;
+        border-style: none !important;
+        border: none !important;
+        border-color: initial;
+        border-image: initial;
+        border-width: initial !important;
+        cursor: pointer;
+        outline: none !important;
+    }
+    
+    .progressIcon{
+        margin-left: 68%;
+        margin-top: -44px;
+        height: 0px !important;
+    }
+
+    .goBack{
+        padding-left: 11%;
+        padding-top: 9rem;
+        padding-bottom: 15rem;
+        margin-bottom: -18rem;
+    }
+    
+    .confirmation__heading{
+        font-weight: 400;
+    }
+    
+    .back__button{
+        margin-left: 0rem;
+        width: 24% !important;
+        padding: 10px 26px !important;
+        font-size: 17px;
+        border-radius: 25px !important;
+        margin-left: 29%;
+        background-image: linear-gradient(10deg, rgb(0, 114, 255) 0%, rgb(0, 198, 255) 100%);
+        color: rgb(255, 255, 255);
+        box-shadow: rgb(106, 147, 255) 0px 4px 0px -4px;
+        user-select: none;
+        border-style: none !important;
+        border: none !important;
+        border-color: initial;
+        border-image: initial;
+        border-width: initial !important;
+        cursor: pointer;
+        outline: none !important;
+    }
+
+}
+
+
+@media(max-width: 360px){
+ 
+    .submitButton{
+        padding: 10px 26px !important;
+    }
+    
+    .goBack{
+        padding-left: 11%;
+        padding-top: 9rem;
+        padding-bottom: 15rem;
+        margin-bottom: -18rem;
+    }
+    
+    .back__button{
+        padding: 10px 26px !important;
+    }
+
+}
+
+@media(max-width: 320px){
+ 
+    .submitButton{
+        padding: 10px 22px !important;
+    }
+    
+    .goBack{
+        padding-left: 2% !important;
+        padding-top: 9rem;
+        padding-bottom: 15rem;
+        margin-bottom: -18rem;
+    }
+    .goBack h1{
+        font-size: 30px;
+    }
+    .back__button{
+        padding: 10px 26px !important;
+    }
+
+}
+
+@media(max-width: 375px){
+ 
+    .submitButton{
+        padding: 10px 22px !important;
+    }
+    
+    .goBack{
+        padding-left: 6%;
+        padding-top: 9rem;
+        padding-bottom: 15rem;
+        margin-bottom: -18rem;
+    }
+    
+    .back__button{
+        padding: 10px 18px !important;
+        margin-left: 31%;
+    }
+
+}

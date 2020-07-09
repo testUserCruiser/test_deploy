@@ -1,0 +1,238 @@
+.textView{
+    width: 850px;
+    margin: auto;
+    margin-top: 9rem;
+}
+
+.tags__views{
+
+}
+
+.tagss{
+    display: flex;
+    flex-wrap: flex;
+    -webkit-box-align: center;
+    text-align: center;
+    align-items: center;
+    /* overflow-y: hidden; */
+    margin-bottom: -17px;
+    /* margin-left: 37px; */
+    /* margin: auto; */
+    justify-content: center;
+}
+
+.tagsBlog{
+    margin: 0px 2rem 1rem 0px;
+    opacity: 1;
+    padding: 0.3rem 23px;
+    border-radius: 50px;
+    font-size: 22px;
+    transition: all 0.3s ease 0s;
+    color: rgb(255, 255, 255);
+    height: 25px !important;
+    cursor: pointer;
+}
+
+.tags:hover{
+    opacity: 0.8;
+}
+
+.tagLink{
+    text-decoration: none;
+    color: white;
+}
+
+.dates_views{
+    color: #A7A7A7;
+    font-size: 18px;
+    /* font-weight: 600; */
+    letter-spacing: 2px;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    /* text-align: center; */
+    margin-left: 39px;
+    margin-bottom: -28px;
+}
+
+@media(max-width: 768px){
+
+    .textView{
+        width: 414px;
+        margin-top: 7rem;
+    }
+
+    .dates_views{
+        margin-left: 23px;
+    }
+
+    .tagss{
+        display: flex;
+        flex-wrap: flex;
+        -webkit-box-align: center;
+        text-align: center;
+        align-items: center;
+        /* overflow-y: hidden; */
+        margin-bottom: -17px;
+        margin-left: 37px;
+        /* margin: auto; */
+        justify-content: center;
+    }
+    .tagsBlog{
+        padding-bottom: 4px;
+        padding-top: 4px;
+    }
+
+}
+@media(max-width: 360px){
+
+    .textView{
+        width: 353px !important;
+        margin-top: 7rem;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    
+    .tagss{
+        display: flex;
+        flex-wrap: flex;
+        -webkit-box-align: center;
+        text-align: center;
+        align-items: center;
+        /* overflow-y: hidden; */
+        margin-bottom: -17px;
+        margin-left: 14px !important;
+        /* margin: auto; */
+        justify-content: center;
+    }
+    
+    .tagsBlog{
+        margin: 0px 2rem 1rem 0px;
+        opacity: 1;
+        padding: 0.3rem 23px;
+        border-radius: 50px;
+        padding-bottom: 6px !important;
+        font-size: 18px;
+        transition: all 0.3s ease 0s;
+        color: rgb(255, 255, 255);
+        height: 18px !important;
+        cursor: pointer;
+    }
+    
+    .tags:hover{
+        opacity: 0.8;
+    }
+    
+    .tagLink{
+        text-decoration: none;
+        color: white;
+    }
+    
+    .dates_views{
+        margin-left: 23px;
+    }
+
+}
+
+
+@media(max-width: 320px){
+
+    .textView{
+        width: 329px !important;
+        margin-top: 7rem;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    
+    .tagss{
+        display: flex;
+        flex-wrap: flex;
+        -webkit-box-align: center;
+        text-align: center;
+        align-items: center;
+        /* overflow-y: hidden; */
+        margin-bottom: -17px;
+        margin-left: 6px !important;        
+        /* margin: auto; */
+        justify-content: center;
+    }
+    
+    .tagsBlog{
+        margin: 0px 1rem 1rem 0px;
+        opacity: 1;
+        padding: 0.3rem 23px;
+        border-radius: 50px;
+        font-size: 18px;
+        transition: all 0.3s ease 0s;
+        color: rgb(255, 255, 255);
+        cursor: pointer;
+    }
+    
+    .tags:hover{
+        opacity: 0.8;
+    }
+    
+    .tagLink{
+        text-decoration: none;
+        color: white;
+    }
+    
+    .dates_views{
+        margin-left: 23px;
+    }
+
+}
+
+
+@media(max-width: 375px){
+
+    .textView{
+        width: 385px;
+        margin-top: 7rem;
+        margin-left: 0px;
+        margin-right: 0;
+    }
+
+    
+    .tagss{
+        display: flex;
+        flex-wrap: flex;
+        -webkit-box-align: center;
+        text-align: center;
+        align-items: center;
+        /* overflow-y: hidden; */
+        margin-bottom: -17px;
+        margin-left: 6px;
+        /* margin: auto; */
+        justify-content: center;
+    }
+    
+    .tagsBlog{
+        margin: 0px 1rem 1rem 0px;
+        opacity: 1;
+        padding: 0.3rem 23px;
+        border-radius: 50px;
+        font-size: 18px;
+        padding-bottom: 0px;
+        padding-top: 4px;
+        transition: all 0.3s ease 0s;
+        color: rgb(255, 255, 255);
+        cursor: pointer;
+    }
+    
+    .tags:hover{
+        opacity: 0.8;
+    }
+    
+    .tagLink{
+        text-decoration: none;
+        color: white;
+    }
+    
+    .dates_views{
+        margin-left: 23px;
+    }
+
+}

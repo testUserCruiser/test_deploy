@@ -1,0 +1,113 @@
+.skewed__path-outro{
+    height: 88vh;
+    background-color: #f9f9f9;
+    width: 100%;
+    clip-path: polygon(0% 14%, 100% 0px, 100% 84%, 0px 100%);
+}
+
+.main__heading-outro{
+    margin-top: 5rem;
+    margin-left: 40%;
+    font-size: 23px;
+    padding-top: 4rem;
+}
+
+.skewed__path-main{
+    text-align: left;
+    margin: auto 7rem;
+    margin-left: 10rem;
+    margin-top: 1rem;
+}
+
+.main__items-outro{
+    grid-template-columns: repeat(3, 1fr);
+    display: grid;
+    grid-gap: 5rem;
+}
+.item__outro img{
+    height: 120px;
+    transition: transform .3s;
+}
+
+.item__outro img:hover{
+    transform: scale(1.1);
+}
+
+@media(max-width: 768px){
+
+
+    .skewed__path-outro{
+        height: 156vh;
+        background-color: #f9f9f9;
+        width: 100%;
+        clip-path: polygon(0% 9%, 100% 0px, 100% 89%, 0px 100%);
+    }
+    
+    .main__heading-outro{
+        margin-top: 5rem;
+        margin-left: 37%;
+        font-size: 17px;
+        padding-top: 3.7rem;
+        margin-bottom: 3rem;
+    }
+    
+    .skewed__path-main{
+        text-align: center;
+        margin: auto 0;
+        margin-left: 0;
+        margin-top: 1rem;
+    }
+    
+    .main__items-outro{
+        grid-template-columns: none;
+        display: block;
+        grid-gap: 0;
+    }
+    .item__outro img{
+        height: 84px;
+        transition: transform .3s;
+    }
+    
+    .item__outro img:hover{
+        transform: scale(1.1);
+    }
+
+    .main__items-outro p{
+        padding: 0 2rem;
+        margin-bottom: 3rem;
+        color: rgb(84, 84, 84);
+    }
+
+    .main__items-outro h1{
+
+    }
+
+
+}
+
+
+
+@media only screen 
+and (device-width: 414px) 
+and (device-height: 896px)
+and (-webkit-device-pixel-ratio: 2) { 
+
+
+    .main__heading-outro{
+        margin-top: 5rem;
+        margin-left: 40%;
+        font-size: 17px;
+        padding-top: 6rem;
+        margin-bottom: 3rem;
+    }
+    .item1-outro{
+        padding-top: 2rem;
+    }
+    .item2-outro{
+        padding-top: 3rem;
+    }
+    .item3-outro{
+        padding-top: 3rem;
+    }
+
+}
