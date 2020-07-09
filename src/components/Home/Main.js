@@ -5,14 +5,13 @@ import Footer from '../Base/Footer'
 import ScrollTop from '../Base/ScrollTop'
 import Loading from './Loading'
 import BlogContent from '../Blog/BlogContent'
-import IndexComponent from './Index'
 
 
-// const IndexComponent = (
-//     lazy(()=> (
-//         import ('./Index')
-//     ))
-// )
+const IndexComponent = (
+    lazy(()=> (
+        import ('./Index')
+    ))
+)
 
 const AboutComponent = (
     lazy(() => (
@@ -60,9 +59,9 @@ export default class Main extends Component {
             <div style={{height: '100%'}}>
             <Nav />
                         <Switch>
-                        <Route path="/" exact component={IndexComponent} />
                         <Route path="/blog/:title/" exact component={BlogContent} />
                         <Suspense fallback={<LoadingMessage />}>
+                            <Route path="/" exact component={IndexComponent} />
                             <Route path="/about">
                                 <AboutComponent />
                             </Route>
